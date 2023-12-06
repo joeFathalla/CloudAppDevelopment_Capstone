@@ -26,7 +26,7 @@ urlpatterns = [
     path(route='', view=views.get_dealerships, name='index'),
 
     # path for dealer reviews view
-
+    # https://joefathalla1-3000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/api/dealership
     # path for add a review view
-
+    # https://joefathalla1-5000.theiadocker-0-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai/api/get_reviews?id=15
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
